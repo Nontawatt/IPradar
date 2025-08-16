@@ -27,7 +27,7 @@ infrastructure.
 * **Censys search** – Uses the
   [Censys Python client](https://censys-python.readthedocs.io/en/v2.2.12/usage-v2.html) to query the hosts index.  The
   `CensysHosts` class provides `search()` and `view()` functions to
-  retrieve host information【468786160087640†L74-L133】.  The script can either run a
+  retrieve host information.  The script can either run a
   query (e.g. `services.service_name: MQTT`) or fetch detailed host
   data for a specific IP.  Results include the ports, service names
   and location data.
@@ -156,5 +156,4 @@ test.  Unauthorised reconnaissance or port scanning may violate
 applicable laws and the terms of service of Shodan and Censys.  The
 developer of this script takes no responsibility for misuse.  For
 background on the libraries used, see the official documentation for
-the `ipwhois` package【203691511594537†L8-L10】, the Shodan Python API
-【473135104521006†L45-L67】 and the Censys Python client【468786160087640†L74-L133】.
+the `ipwhois` package, the Shodan Python API and the Censys Python client.
