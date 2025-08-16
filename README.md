@@ -14,13 +14,13 @@ infrastructure.
   information about the IP’s network assignment and autonomous system.
   According to the documentation, RDAP provides a far better data
   structure and richer network and contact information than legacy
-  whois【319599820089173†L3-L7】.  The script extracts the ASN, network
+  whois.  The script extracts the ASN, network
   CIDR and country code from the response.
 
 * **Shodan search** – Integrates with the official
   [Shodan Python library](https://shodan.readthedocs.io/en/latest/tutorial.html).  Shodan’s API allows you to
   initialise an API client with your key and perform searches or host
-  lookups via `api.search()` and `api.host()`【473135104521006†L45-L67】.  IPradar can
+  lookups via `api.search()` and `api.host()`.  IPradar can
   perform a free‑form Shodan search (for example, `"http.title:\"drone
   command\""`) or retrieve banners and services for a specific IP.
 
@@ -53,7 +53,7 @@ infrastructure.
   Camera” and “D‑Link DCS‑5020L webcam http interface”【405649198003152†L45-L52】.
   A **VulnCheck** report published in July 2025 noted that Shodan showed **over
   one million potentially vulnerable Hikvision systems** related to
-  CVE‑2021‑36260【680312211766065†L34-L45】, illustrating why identifying
+  CVE‑2021‑36260, illustrating why identifying
   exposed CCTV, webcam and drone devices is important.  This feature
   provides a high‑level overview of how many devices from each vendor are
   reachable on the Internet.
