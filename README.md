@@ -50,7 +50,7 @@ infrastructure.
   brand the script runs a **Shodan** search using the `product:` filter and a
   **Censys** search using `services.software.product`.  Shodan’s product filter
   surfaces top products like “Hikvision IP Camera,” “TruVision NVR/DVR/IP
-  Camera” and “D‑Link DCS‑5020L webcam http interface”【405649198003152†L45-L52】.
+  Camera” and “D‑Link DCS‑5020L webcam http interface”.
   A **VulnCheck** report published in July 2025 noted that Shodan showed **over
   one million potentially vulnerable Hikvision systems** related to
   CVE‑2021‑36260, illustrating why identifying
